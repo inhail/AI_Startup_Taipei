@@ -57,7 +57,7 @@ class LstmParam:
         self.bf_diff = np.zeros(mem_cell_ct) 
         self.bo_diff = np.zeros(mem_cell_ct) 
 
-    # compute parameter_diff
+    # compute Variety of Weight
     def apply_diff(self, lr=1):
 
         self.wg -= lr * self.wg_diff
